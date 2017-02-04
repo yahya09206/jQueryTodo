@@ -1,0 +1,6 @@
+#container {
+	/*center container div*/
+	background: grey;
+	width: 360px;
+	margin: 0 auto;
+}
