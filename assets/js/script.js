@@ -1,5 +1,12 @@
 //Check off specif todos by clicking
 $("li").click(function(){
-	$(this).css("color", "grey");
-	$(this).css("text-decoration", "line-through");
+	//if li is grey
+	if($(this).css("color") === "grey")
+		//turn it black
+	//else
+		//turn it gray
+	$(this).css({
+		color: "gray",
+		textDecoration: "line-through",
+	});
 });
