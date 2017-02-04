@@ -9,4 +9,4 @@ $("span").click(function(event){
 		$(this).remove();
 	});
 	event.stopPropagation();
-})
+});
