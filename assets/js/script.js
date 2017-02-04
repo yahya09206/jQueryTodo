@@ -4,6 +4,7 @@ $("li").click(function(){
 });
 
 //Click on x to delete todo
-$("span").click(function(){
+$("span").click(function(event){
 	alert("Clicked on a span");
+	event.stopPropagation();
 })
