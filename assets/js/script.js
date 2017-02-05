@@ -1,5 +1,6 @@
 //Check off specif todos by clicking
-$("li").click(function(){
+//changed code so existing and new li's will have code for deleting and striking off
+$("ul").on("click", "li", function(){
 	$(this).toggleClass("completed");
 });
 
