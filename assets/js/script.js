@@ -12,5 +12,8 @@ $("span").click(function(event){
 });
 
 $("input=[type=text]").keypress(function(event){
-	if(event.which === 13)
+	if(event.which === 13){
+		//extract text from input box
+		$(this).val();
+	}
 });
