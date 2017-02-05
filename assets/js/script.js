@@ -10,3 +10,7 @@ $("span").click(function(event){
 	});
 	event.stopPropagation();
 });
+
+$("input=[type=text]").keypress(function(){
+	
+})
