@@ -22,6 +22,7 @@ li {
 	background: #fff;
 	height: 40px;
 	line-height: 40px;
+	color: #666;
 }
 
 li:nth-child(2n){
