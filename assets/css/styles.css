@@ -2,7 +2,8 @@
 	/*center container div*/
 	border: 2px solid grey;
 	width: 360px;
-	margin: 100px 100px;
+	margin: 100px auto;
+	background-color: #f7f7f7;
 }
 
 .completed {
