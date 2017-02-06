@@ -18,6 +18,14 @@ body {
 	font-family: Roboto;
 }
 
+li {
+	background: #fff;
+}
+
+li:nth-child(2n){
+	background: #f7f7f7;
+}
+
 #container {
 	/*center container div*/
 	width: 360px;
