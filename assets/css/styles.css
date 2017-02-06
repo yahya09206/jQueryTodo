@@ -2,10 +2,11 @@
 	/*center container div*/
 	border: 2px solid grey;
 	width: 360px;
-	margin: 0 auto;
+	margin: 100px 100px;
 }
 
 .completed {
 	color: grey;
 	text-decoration: line-through;
 }
+
