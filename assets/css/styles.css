@@ -42,6 +42,11 @@ span {
 	height: 40px;
 	margin-right: 20px;
 	text-align: center;
+	width: 0;
+	display: inline-block;
+}
+
+li:hover span {
 	width: 40px;
 }
 
