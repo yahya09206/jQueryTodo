@@ -37,6 +37,11 @@ li:nth-child(2n){
 	background: #f7f7f7;
 }
 
+span {
+	background: #e74c3c;
+	
+}
+
 input {
 	font-size: 18px;
 	background-color: #f7f7f7;
