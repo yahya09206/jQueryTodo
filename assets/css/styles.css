@@ -44,11 +44,13 @@ span {
 	text-align: center;
 	width: 0;
 	display: inline-block;
-	transition: 0.2 linear;
+	transition: 0.2s linear;
+	opacity: 0;
 }
 
 li:hover span {
 	width: 40px;
+	opacity: 1.0;
 }
 
 input {
