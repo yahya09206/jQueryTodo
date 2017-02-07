@@ -41,6 +41,8 @@ span {
 	background: #e74c3c;
 	height: 40px;
 	margin-right: 20px;
+	text-align: center;
+	width: 40px;
 }
 
 input {
