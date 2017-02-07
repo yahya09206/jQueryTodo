@@ -14,6 +14,10 @@ ul {
 	margin: 0;
 }
 
+.fa-plus {
+	float: right;
+}
+
 body {
 	font-family: Roboto;
 	background: #00d2ff; /* fallback for old browsers */
