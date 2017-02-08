@@ -1,4 +1,4 @@
-//Check off specif todos by clicking
+//Check off specific todos by clicking
 //changed code so existing and new li's will have code for deleting and striking off
 $("ul").on("click", "li", function(){
 	$(this).toggleClass("completed");
@@ -22,6 +22,7 @@ $("input[type='text']").keypress(function(event){
 	}
 });
 
+//toggle todo list by clicking plus sign
 $(".fa-plus").click(function() {
 	$("input[type='text']").fadeToggle();
 });
